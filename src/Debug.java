@@ -2,6 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Debug {
+
     public Integer[] createRandom() {
         Random rd = new Random();
         Integer[] arr = new Integer[100];
@@ -15,7 +16,7 @@ public class Debug {
 
 
     public static void main(String[] args) {
-        ArrayExample arrExample = new ArrayExample();
+        Debug arrExample = new Debug();
         Integer[] arr = arrExample.createRandom();
 
         Scanner scaner = new Scanner(System.in);
@@ -29,10 +30,7 @@ public class Debug {
     }
 
     private static class ArrayExample {
-        public Integer[] createRandom() {
 
-            return new Integer[2];
-        }
     }
 }
 
